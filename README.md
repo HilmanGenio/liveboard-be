@@ -21,10 +21,10 @@ npm run dev
 ```
 
 ## Database Access
-- **DBeaver Connection**: localhost:5432
-- **Database**: liveboard
-- **User**: liveboard_user
-- **Password**: liveboard_pass_2024
+- **DBeaver Connection**: localhost:5433
+- **Database**: liveboardDB
+- **User**: liveboard
+- **Password**: liveboard123
 
 ## API Endpoints
 - `GET /` - Health check
