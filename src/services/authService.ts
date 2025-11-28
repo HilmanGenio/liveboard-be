@@ -60,11 +60,7 @@ export class AuthService {
         email: user.email 
       },
       config.JWT_SECRET,
-      { 
-        expiresIn: config.JWT_EXPIRES_IN,
-        issuer: 'liveboard-api',
-        audience: 'liveboard-client'
-      }
+      { expiresIn: '7d' }
     );
 
     return {
